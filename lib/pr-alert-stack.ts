@@ -15,7 +15,7 @@ export class PRAlertStack extends cdk.Stack {
       handler: "alert.main",
       environment: {
         SLACK_CHANNEL_URL: "{GET_THIS_FROM_YOUR_SLACK_APP}",
-        WEBHOOK_SECRET:"{GET_THIS_FROM_YOUR_SLACK_APP}"
+        WEBHOOK_SECRET:"{GET_THIS_FROM_YOUR_GITHUB_REPO_WEBHOOKS_SETTING}"
       }
     });
 
