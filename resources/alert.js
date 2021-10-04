@@ -1,7 +1,3 @@
-/* 
-This function will be called by API GW for every PR that we merge on Coaching-api repo
-It check for the content and sends alert to a Slack channel based on the content
-*/
 const AWS = require("aws-sdk");
 const fetch = require("node-fetch");
 const crypto = require("crypto");
