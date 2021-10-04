@@ -2,6 +2,9 @@
 
 Sending a message to Slack if there's a change in `schema.prisma` file
 
+![PR Alert - Frame 1](https://user-images.githubusercontent.com/4580370/135857197-e380ab3b-47fd-4169-b926-7cb3945318b8.jpg)
+
+
 ### CDK Readme
 
 ```
