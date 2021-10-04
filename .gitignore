@@ -12,3 +12,6 @@ cdk.out
 .build
 
 .env
+
+!alert.js
+!alert.test.js
