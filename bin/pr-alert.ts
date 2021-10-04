@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from '@aws-cdk/core';
-import { CoachingAlertStack } from '../lib/coaching-alert-stack';
+import { PRAlertStack } from '../lib/pr-alert-stack';
 
 const app = new cdk.App();
-new CoachingAlertStack(app, 'CoachingAlertStack');
+new PRAlertStack(app, 'PRAlertStack');
